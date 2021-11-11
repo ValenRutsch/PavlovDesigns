@@ -1,0 +1,245 @@
+body{
+	
+	font-family: Lato;
+    margin: 0;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+header{
+    background-color: #ffffff;
+    text-align: center;
+}
+
+aside{
+background-color:#F6F8F4;
+padding: 20px;
+  flex:1 1 30%;
+  display: flex;
+  flex-wrap:wrap;
+  flex-direction:column;
+  justify-content:flex-start;
+}
+section{
+    flex: 70px;
+    padding: 20px;
+
+}
+footer{
+    padding: 20px;
+    text-align: center;
+}
+@media screen and (max-width: 700px){
+    nav,.row{
+        flex-direction: column;
+    }
+}
+.logo{
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+.cover{
+    height: 400px;
+    background-image: url(./imagenes/pavlov3.jpeg);
+background-size: cover; 
+background-attachment: fixed;
+ display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+}
+.menu{
+
+  list-style:none;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+  max-resolution: auto;
+  background-color: black;
+ 
+}
+.menu li a{
+  text-decoration: none;  
+  color: #000000;
+  padding: 25px;
+  display: block;
+  letter-spacing: 3,5%;
+  font-size: 16px;
+
+}
+
+.menu li{
+  display:inline-block;
+  text-align:center;
+  letter-spacing: 3,5%;
+  size: 16px;
+}
+.form-register {
+  width: 400px;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: 'lato';
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+ 
+}
+
+* {
+    box-sizing: border-box;
+}
+.contenedor{
+    width: 100%;
+    padding: 15px;
+}
+.formulario{
+    background: #fff;
+    margin-top: 150px;
+    padding: 3px;
+}
+* {
+    box-sizing: border-box;
+}
+.contenedor{
+    width: 100%;
+    padding: 15px;
+}
+.formulario{
+    background: #fff;
+    margin-top: 150px;
+    padding: 3px;
+    display:flex; 
+    align-items: center
+}
+h1{
+    text-align: center;
+    color: #1a2537;
+    font-size: 40px;
+}
+input[type="text"],
+input[type="password"]{
+    font-size: 20px;
+    width: 82%;
+    padding: 10px;
+    border: none;
+}
+.input-contenedor{
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+}
+.icon{
+    min-width: 50px;
+    text-align: center;
+    color: #999;
+}
+.button{
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background:  #1a2537;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button:hover{
+    background: cadetblue;
+}
+p{
+    text-align: center;
+}
+.link{
+    text-decoration: none;
+      color: black;
+    font-weight: 600;
+}
+.link:hover{
+     color: cadetblue;
+}
+@media(min-width:768px)
+{
+    .formulario{
+        margin: auto;
+        width: 500px;
+        margin-top: 150px;
+        border-radius: 2%;
+    }
+}
+header nav a {
+  color:#fff;
+  text-align: center;
+  text-decoration: none;
+  padding:10px;
+}
+
+.main {
+  background:#fff;
+  padding:20px;
+  flex:1 1 70%;
+
+}
+
+.main article {
+  margin-bottom: 20px;
+  padding-bottom:20px;
+  border-bottom:1px solid #000;
+}
+
+.main article:nth-last-child(1){
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom:none;
+}
+.social-bar {
+    position: fixed;
+    right: 0;
+    top: 35%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100;
+}
+
+.icon {
+    color: white;
+    text-decoration: none;
+    padding: .7rem;
+    display: flex;
+    transition: all .5s;
+}
+
+.icon-facebook {
+    background: #2E406E;
+}
+
+
+.icon-gmail {
+    background: #E83028;
+}
+
+.icon-instagram {
+    background: #3F60A5;
+}
+
+.icon:first-child {
+    border-radius: 1rem 0 0 0;
+}
+
+.icon:last-child {
+    border-radius: 0 0 0 1rem;
+}
+
+.icon:hover {
+    padding-right: 3rem;
+    border-radius: 1rem 0 0 1rem;
+    box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+}
